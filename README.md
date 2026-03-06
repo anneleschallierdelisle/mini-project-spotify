@@ -83,22 +83,37 @@ These insights help explain **listener engagement patterns and music consumption
 # Project Structure
 
 ```
-Mini-Project-Spotify
+sql-databse│
+├── raw_data/
+│   ├── charts_info.csv
+│   └── data.csv
 │
-├── data/
-│   ├── spotify_charts.csv
+├── csv_tables/
+│   ├── chart_country.csv
+│   ├── charts_.csv
+│   ├── country.csv
+│   ├── genre.csv
+│   ├── track.csv
+│   └── track_genre.csv
 │
-├── notebooks/
-│   ├── music_analysis.ipynb
+├── graphs/
+│   ├── duration_binned_histogram_tracks_0_6min.png
+│   ├── graph_avg-stream_explicit.png
+│   ├── graph_avg-stream_song-duration.png
+│   ├── graph_region-genre.png
+│   ├── graph_trend-explicit.png
+│   ├── heatmap_genres.png
+│   ├── lineplot_genres.png
+│   └── sorted_genre_barchart_horizontal.png
 │
-├── visuals/
-│   ├── duration_distribution.png
-│   ├── explicit_vs_nonexplicit_streams.png
-│   ├── explicit_trend.png
-│   ├── regional_genre_heatmap.png
+├── spotify-main.ipynb
+├── spotify-fixed.ipynb
+├── spotify_bridge_tables_anne.ipynb
 │
-├── README.md
-└── requirements.txt
+├── Spotify_Diagram_2026-03-05T13_30_25.809Z.sql
+├── Spotify_Diagram_2026-03-06T08_58_44.465Z.png
+│
+└── README.md
 ```
 
 ---
